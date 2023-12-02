@@ -1,4 +1,3 @@
-
 module.exports = {
-                  "extends": ["next/core-web-vitals","eslint:recommended"]
-                }
+  extends: ['next/core-web-vitals', 'eslint:recommended'],
+}

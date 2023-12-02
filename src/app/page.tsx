@@ -8,12 +8,14 @@ function Home() {
   const company = 'OKLABS' // this is local variable
   return (
     <>
-    <main>
-      <h1>Hello world {name} {company}</h1>
-    </main>
-    </>
+    <main> 
+                       <h1>
+                                      Hello world {name} {company}
+                                                                        </h1>
+                                           </main>
+                              </>
   )
 }
 
 //3. export area
-export default Home;
+export default Home
