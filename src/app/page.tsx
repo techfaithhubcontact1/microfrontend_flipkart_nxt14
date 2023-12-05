@@ -5,15 +5,13 @@
 const name = 'Gulab' // this is global variale
 function Home() {
   // When define variales inside of function defination is called local variables
-  const company = 'OKLABS' // this is local variable
+  // const company = 'OKLABS' // this is local variable
   return (
     <>
-    <main> 
-                       <h1>
-                                      Hello world {name} {company}
-                                                                        </h1>
-                                           </main>
-                              </>
+      <main>
+        <h1>Hello world {name}</h1>
+      </main>
+    </>
   )
 }
 
